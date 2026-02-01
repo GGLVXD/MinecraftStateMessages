@@ -1,8 +1,0 @@
-server-start-message: "Server has been started!"
-server-stop-message: "Server has been stopped!"
-discord-webhook-url: "https://discord.com/api/webhooks/your-webhook-url"
-
-embed-enabled: true
-embed-start-color: "green"
-embed-stop-color: "red"
-embed-title: ""

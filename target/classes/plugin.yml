@@ -1,5 +1,0 @@
-main: com.fryde.msm.MinecraftStateMessages
-version: 1.0.1
-name: MinecraftStateMessages
-author: GGLVXD
-description: Discord notifications for server state changes
