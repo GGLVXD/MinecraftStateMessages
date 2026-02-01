@@ -1,0 +1,5 @@
+main: com.fryde.msm.MinecraftStateMessages
+version: 1.0.0
+name: MinecraftStateMessages
+author: GGLVXD
+api-version: 1.13
