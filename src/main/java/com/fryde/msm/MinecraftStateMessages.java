@@ -58,12 +58,13 @@ public class MinecraftStateMessages extends JavaPlugin {
                 conn.setRequestMethod("POST");
                 conn.setDoOutput(true);
                 conn.setRequestProperty("Content-Type", "application/json");
+                conn.setRequestProperty("User-Agent", "https://fryde.org MinecraftStateMessages/1.0");
 
                 String payload = Embed.buildEmbedJson(message, colorType, getConfig());
                 byte[] out = payload.getBytes(StandardCharsets.UTF_8);
                 conn.setFixedLengthStreamingMode(out.length);
                 conn.connect();
-                try (var os = conn.getOutputStream()) {
+                try (java.io.OutputStream os = conn.getOutputStream()) {
                     os.write(out);
                 }
 

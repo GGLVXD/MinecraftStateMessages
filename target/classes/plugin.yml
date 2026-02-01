@@ -1,5 +1,5 @@
 main: com.fryde.msm.MinecraftStateMessages
-version: 1.0.0
+version: 1.0.1
 name: MinecraftStateMessages
 author: GGLVXD
-api-version: 1.13
+description: Discord notifications for server state changes
